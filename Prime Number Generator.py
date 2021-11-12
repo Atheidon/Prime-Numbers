@@ -8,11 +8,11 @@ def is_prime(n):
     if n <= 1:
         return False
     #If the n is 2, print it.
-    if n == 2:
+    elif n == 2:
         print(2)
         return True
     #Filtering even numbers
-    if n > 2 and n % 2 == 0:
+    elif n > 2 and n % 2 == 0:
         return False
 
     #reducing more
